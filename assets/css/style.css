@@ -1,6 +1,10 @@
 /*Estilo pagina index.html*/
-.center{
+.center {
     text-align: center;
+}
+
+.justify{
+    text-align: justify;
 }
 
 .container {
@@ -10,29 +14,32 @@
     align-items: center;
 }
 
-#menu li {
+#menu li{
     display: inline;
-    padding: 30px;
-    text-decoration: none;
-}
-
-#menu li a {
-    text-decoration: none;
-    color: black;
+    padding: 20px;
     font-size: 20px;
 }
 
+#menu li a{
+    text-decoration: none;
+    color: rgb(9, 255, 0);
+}
+
 #menu li a:hover{
-    color: gray;
+    color: rgb(132, 237, 100);
 }
 
-.p-30 {
-    padding: 30px;
+.tm {
+    width: 50px;
+    height: 50px;
 }
 
-.br-50 {
-    border-radius: 50%;
+.ml-50 {
+    margin-left: 50px;
 }
-
 
 /*Estilo pagina contato.html*/
+
+.ml-50 {
+    margin-left: 50px;
+ }
